@@ -75,5 +75,107 @@ h1 {
 }
 
 .cards-wrapper {
-   
+   margin: 100px;
+}
+
+h2{
+    text-align: center;
+    font-weight: 900;
+    font-size: 36px;
+    margin-top: -50px;
+    color: rgb(24, 24, 37);
+}
+
+.card-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+
+}
+
+.card-image{
+    margin: 20px;
+    height: 200px;
+    width: 200px;
+    border-radius: 10px;
+    border: solid rgb(53, 53, 216);
+
+}
+
+.card-subtext{
+    text-align: center;
+    margin-top: -15px;
+}
+
+.quote-wrapper{
+    background-color: #E5E7EB;
+}
+
+.quote-container{
+    display: flex;
+    flex-direction: column;
+    margin: 100px;
+    padding-left: 400px;
+    padding-right: 400px;
+}
+
+.quote-text{
+    font-style: italic;
+    font-size: 36px;
+    font-weight: 300;
+    color: rgb(24, 24, 59);
+}
+
+.quote-author{
+    font-weight: 900;
+    align-self: flex-end;
+}
+
+.sing-up-wrapper{
+    margin: 100px;
+}
+
+.sing-up-container{
+    background-color: rgb(48, 48, 248);
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-left: 300px;
+    margin-right: 300px;
+    border-radius: 10px;
+    padding: 50px;
+}
+
+h3{
+    color: blanchedalmond;
+    padding: 0;
+    margin: 0;
+}
+.sing-up-text{
+    color: rgb(248, 240, 229);
+    margin: 0;
+    padding: 0;
+}
+
+.Sing-up-button2 {
+    background-color: rgb(48, 48, 248);
+    border: 2px solid white;
+    margin: 5px 30px;
+    border-radius: 10px;
+    font-weight: 900;
+    color: blanchedalmond;
+}
+
+.footer-wrapper{
+    background-color: rgb(26, 26, 92);
+}
+
+.footer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: rgb(185, 183, 183);
+    font-size: 18px;
+    margin: 10px;
 }
